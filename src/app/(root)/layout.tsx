@@ -1,9 +1,14 @@
+import LeftBar from "@/components/leftbar";
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <body>{children}</body>
+    <main>
+      <LeftBar />
+      {children}
+    </main>
   );
 }
