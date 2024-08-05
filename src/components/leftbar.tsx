@@ -23,7 +23,11 @@ const LeftBar = () => {
             {leftbardata.map((item, index) => (
               <li
                 key={index}
-                className={cn("py-4 px-5 cursor-pointer hover:bg-gray-200", active === item.href && "border-l-8 border-black bg-gradient-to-r from-gray-100 to-black/20")}
+                className={cn(
+                  "py-4 px-5 cursor-pointer hover:bg-gray-200",
+                  active === item.href &&
+                    "border-l-8 border-black bg-gradient-to-r from-gray-100 to-black/20"
+                )}
               >
                 <Link href={item.href}>{item.name}</Link>
               </li>

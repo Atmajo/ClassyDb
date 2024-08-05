@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Roboto, Roboto_Mono } from "next/font/google";
 import "./globals.css";
+import { cn } from "@/lib/utils";
 // import { CookiesProvider } from "react-cookie";
 
 const roboto = Roboto_Mono({ weight: ["400"], subsets: ["latin"] });
@@ -16,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={roboto.className}>{children}</body>
+      <body className={cn("md:overflow-hidden", roboto.className)}>{children}</body>
     </html>
   );
 }

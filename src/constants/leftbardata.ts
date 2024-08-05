@@ -16,6 +16,10 @@ const leftbardata = [
     href: "/queries",
   },
   {
+    name: "Users",
+    href: "/users",
+  },
+  {
     name: "Settings",
     href: "/settings",
   },
