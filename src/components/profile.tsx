@@ -34,7 +34,7 @@ const Profile = () => {
       </Avatar>
       <div>
         <h1 className="font-semibold capitalize">{user}</h1>
-        <p className="capitalize">{type}</p>
+        <p className="capitalize text-sm">{type}</p>
       </div>
       <div className="flex flex-1 items-end justify-end">
         <Button onClick={handleLogout}>

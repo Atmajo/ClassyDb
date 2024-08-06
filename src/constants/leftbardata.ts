@@ -4,8 +4,8 @@ const leftbardata = [
     href: "/home",
   },
   {
-    name: "Database",
-    href: "/database",
+    name: "Databases",
+    href: "/databases",
   },
   {
     name: "Tables",
@@ -14,10 +14,6 @@ const leftbardata = [
   {
     name: "Queries",
     href: "/queries",
-  },
-  {
-    name: "Users",
-    href: "/users",
   },
   {
     name: "Settings",

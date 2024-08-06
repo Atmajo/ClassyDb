@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn("md:overflow-hidden", roboto.className)}>{children}</body>
+      <body className={cn("", roboto.className)}>{children}</body>
     </html>
   );
 }

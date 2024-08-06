@@ -1,4 +1,5 @@
 import LeftBar from "@/components/leftbar";
+import Navbar from "@/components/navbar";
 
 export default function RootLayout({
   children,
@@ -6,9 +7,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <main className="md:overflow-hidden">
+    <main className="flex" suppressHydrationWarning={true}>
       <LeftBar />
-      {children}
+      <div className="flex flex-1 flex-col">
+        <Navbar />
+        {children}
+      </div>
     </main>
   );
 }
