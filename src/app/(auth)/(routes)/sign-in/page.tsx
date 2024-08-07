@@ -95,7 +95,7 @@ export default function SignInPage() {
         <CardFooter className="flex justify-between">
           <Button onClick={handleSubmit}>Sign In</Button>
           <Link href="sign-up">
-            <Button variant={"link"}>Don't have an account?</Button>
+            <Button variant={"link"}>Don&apos;t have an account?</Button>
           </Link>
         </CardFooter>
       </Card>

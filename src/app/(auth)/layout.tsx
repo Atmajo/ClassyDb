@@ -8,7 +8,7 @@ export default function AuthLayout({
   children: React.ReactNode;
 }) {
   return (
-    <body className="relative overflow-hidden md:overflow-auto">
+    <body className="relative overflow-hidden md:overflow-auto bg-gray-950">
       <div className="absolute z-0 flex items-center justify-center w-screen h-screen">
         <svg
           className="blur-3xl filter opacity-70"

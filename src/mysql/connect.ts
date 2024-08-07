@@ -9,19 +9,3 @@ const client = mysql.createConnection({
 });
 
 export default client;
-
-// client.connect();
-
-// export default async function extq({
-//   query,
-//   values,
-// }: {
-//   query: string;
-//   values?: string[];
-// }) {
-  
-//   client.query(query, values, function (error, results, fields) {
-//     if (error) return error;
-//     return results;
-//   });
-// }
